@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/kevin/IdeaProjects/3330FinalProject/src</OriginalElement>
+  <nodes>
+    <node x="875.9999999999999" y="1380.0">com.Kaz42c.FuzzySampler.Fuzzy.GaussianMembershipFunction</node>
+    <node x="0.0" y="1151.0">com.Kaz42c.FuzzySampler.Fuzzy.Defuzzifier</node>
+    <node x="1334.0" y="1413.5">com.Kaz42c.FuzzySampler.Fuzzy.SumAggregator</node>
+    <node x="1141.154761904762" y="1150.5">com.Kaz42c.FuzzySampler.Fuzzy.DomainMembership</node>
+    <node x="2416.0" y="307.0">com.Kaz42c.FuzzySampler.OutputScene.OutputSceneController</node>
+    <node x="2770.0" y="1413.5">com.Kaz42c.FuzzySampler.Fuzzy.AndInputOperator</node>
+    <node x="1453.0" y="427.0">com.Kaz42c.FuzzySampler.RulesScene.DefuzzifierViewController</node>
+    <node x="3169.0" y="1162.5">com.Kaz42c.FuzzySampler.Fuzzy.FuzzyRule</node>
+    <node x="1910.0" y="1582.0">com.Kaz42c.FuzzySampler.RulesScene.DomainMembershipPicker</node>
+    <node x="2382.0" y="1413.5">com.Kaz42c.FuzzySampler.Fuzzy.OrInputOperator</node>
+    <node x="1309.0" y="1582.0">com.Kaz42c.FuzzySampler.Main</node>
+    <node x="2286.5" y="0.0">com.Kaz42c.FuzzySampler.ResizableFISSceneController</node>
+    <node x="1504.0" y="1582.0">com.Kaz42c.FuzzySampler.TextFieldFilters</node>
+    <node x="1574.904761904762" y="1129.0">com.Kaz42c.FuzzySampler.Fuzzy.Aggregator</node>
+    <node x="362.0" y="1369.0">com.Kaz42c.FuzzySampler.Fuzzy.TrapezoidalMembershipFunction</node>
+    <node x="1119.0" y="350.0">com.Kaz42c.FuzzySampler.RulesScene.AggregatorViewController</node>
+    <node x="468.99999999999994" y="460.0">com.Kaz42c.FuzzySampler.RulesScene.InputSetupViewController</node>
+    <node x="2158.0" y="175.0">com.Kaz42c.FuzzySampler.RulesScene.RulesSceneController</node>
+    <node x="2559.4642857142853" y="1140.0">com.Kaz42c.FuzzySampler.Fuzzy.InputOperator</node>
+    <node x="713.0" y="1582.0">com.Kaz42c.FuzzySampler.OutputScene.InputViewController</node>
+    <node x="2699.0" y="0.0">com.Kaz42c.FuzzySampler.FIS</node>
+    <node x="797.0" y="405.0">com.Kaz42c.FuzzySampler.RulesScene.FuzzyRuleViewController</node>
+    <node x="303.0" y="821.5">com.Kaz42c.FuzzySampler.RulesScene.BSetViewController</node>
+    <node x="3158.0" y="1413.5">com.Kaz42c.FuzzySampler.Fuzzy.MamdaniRule</node>
+    <node x="132.0" y="350.0">com.Kaz42c.FuzzySampler.RulesScene.MembershipViewController</node>
+    <node x="687.4047619047619" y="1139.5">com.Kaz42c.FuzzySampler.Fuzzy.MembershipFunction</node>
+    <node x="0.0" y="1582.0">com.Kaz42c.FuzzySampler.RulesScene.WeightedRuleDropDownViewController</node>
+    <node x="1788.0" y="328.0">com.Kaz42c.FuzzySampler.RulesScene.InputOperatorViewController</node>
+    <node x="2478.0" y="1582.0">com.Kaz42c.FuzzySampler.Fuzzy.WeightedSetGetter</node>
+    <node x="0.0" y="788.0">com.Kaz42c.FuzzySampler.RulesScene.ASetViewController</node>
+    <node x="963.0" y="0.0">com.Kaz42c.FuzzySampler.RulesScene.SetGetterViewController</node>
+    <node x="1453.75" y="1023.0">com.Kaz42c.FuzzySampler.Fuzzy.ISetGetter</node>
+    <node x="0.0" y="1413.5">com.Kaz42c.FuzzySampler.Fuzzy.CentroidDefuzzifier</node>
+    <node x="1033.0" y="1582.0">com.Kaz42c.FuzzySampler.OutputScene.OutputViewController</node>
+    <node x="1858.0" y="1413.5">com.Kaz42c.FuzzySampler.Fuzzy.MaxAggregator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.Aggregator" target="com.Kaz42c.FuzzySampler.Fuzzy.ISetGetter" relationship="REALIZATION">
+      <point x="0.0" y="-95.0" />
+      <point x="1826.904761904762" y="1104.0" />
+      <point x="1512.75" y="1104.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.RulesScene.DefuzzifierViewController" target="com.Kaz42c.FuzzySampler.RulesScene.SetGetterViewController" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.0" />
+      <point x="1610.5" y="303.0" />
+      <point x="1112.0" y="303.0" />
+      <point x="0.0" y="139.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.MembershipFunction" target="com.Kaz42c.FuzzySampler.Fuzzy.ISetGetter" relationship="REALIZATION">
+      <point x="0.0" y="-84.5" />
+      <point x="830.9047619047619" y="1104.0" />
+      <point x="1512.75" y="1104.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.TrapezoidalMembershipFunction" target="com.Kaz42c.FuzzySampler.Fuzzy.MembershipFunction" relationship="GENERALIZATION">
+      <point x="0.0" y="-84.0" />
+      <point x="609.0" y="1344.0" />
+      <point x="830.9047619047619" y="1344.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.CentroidDefuzzifier" target="com.Kaz42c.FuzzySampler.Fuzzy.Defuzzifier" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="73.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.RulesScene.BSetViewController" target="com.Kaz42c.FuzzySampler.RulesScene.MembershipViewController" relationship="GENERALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="439.5" y="763.0" />
+      <point x="290.5" y="763.0" />
+      <point x="0.0" y="183.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.Defuzzifier" target="com.Kaz42c.FuzzySampler.Fuzzy.ISetGetter" relationship="REALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="171.0" y="1104.0" />
+      <point x="1512.75" y="1104.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.AndInputOperator" target="com.Kaz42c.FuzzySampler.Fuzzy.InputOperator" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="2954.0" y="1344.0" />
+      <point x="2743.4642857142853" y="1344.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.MamdaniRule" target="com.Kaz42c.FuzzySampler.Fuzzy.FuzzyRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="61.5" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.InputOperator" target="com.Kaz42c.FuzzySampler.Fuzzy.ISetGetter" relationship="REALIZATION">
+      <point x="0.0" y="-84.0" />
+      <point x="2743.4642857142853" y="1104.0" />
+      <point x="1512.75" y="1104.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.RulesScene.AggregatorViewController" target="com.Kaz42c.FuzzySampler.RulesScene.SetGetterViewController" relationship="GENERALIZATION">
+      <point x="0.0" y="-183.0" />
+      <point x="1276.0" y="303.0" />
+      <point x="1112.0" y="303.0" />
+      <point x="0.0" y="139.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.FuzzyRule" target="com.Kaz42c.FuzzySampler.Fuzzy.ISetGetter" relationship="REALIZATION">
+      <point x="0.0" y="-61.5" />
+      <point x="3297.5" y="1104.0" />
+      <point x="1512.75" y="1104.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.GaussianMembershipFunction" target="com.Kaz42c.FuzzySampler.Fuzzy.MembershipFunction" relationship="GENERALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="1095.0" y="1344.0" />
+      <point x="830.9047619047619" y="1344.0" />
+      <point x="0.0" y="84.5" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.RulesScene.RulesSceneController" target="com.Kaz42c.FuzzySampler.ResizableFISSceneController" relationship="GENERALIZATION">
+      <point x="0.0" y="-238.5" />
+      <point x="2277.0" y="150.0" />
+      <point x="2406.0" y="150.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.RulesScene.InputSetupViewController" target="com.Kaz42c.FuzzySampler.RulesScene.SetGetterViewController" relationship="GENERALIZATION">
+      <point x="0.0" y="-73.0" />
+      <point x="623.0" y="303.0" />
+      <point x="1112.0" y="303.0" />
+      <point x="0.0" y="139.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.MaxAggregator" target="com.Kaz42c.FuzzySampler.Fuzzy.Aggregator" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="2110.0" y="1344.0" />
+      <point x="1826.904761904762" y="1344.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.OrInputOperator" target="com.Kaz42c.FuzzySampler.Fuzzy.InputOperator" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="2566.0" y="1344.0" />
+      <point x="2743.4642857142853" y="1344.0" />
+      <point x="0.0" y="84.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.RulesScene.ASetViewController" target="com.Kaz42c.FuzzySampler.RulesScene.MembershipViewController" relationship="GENERALIZATION">
+      <point x="0.0" y="-95.0" />
+      <point x="141.5" y="763.0" />
+      <point x="290.5" y="763.0" />
+      <point x="0.0" y="183.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.RulesScene.MembershipViewController" target="com.Kaz42c.FuzzySampler.RulesScene.SetGetterViewController" relationship="GENERALIZATION">
+      <point x="0.0" y="-183.0" />
+      <point x="290.5" y="303.0" />
+      <point x="1112.0" y="303.0" />
+      <point x="0.0" y="139.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.RulesScene.InputOperatorViewController" target="com.Kaz42c.FuzzySampler.RulesScene.SetGetterViewController" relationship="GENERALIZATION">
+      <point x="0.0" y="-205.0" />
+      <point x="1950.5" y="303.0" />
+      <point x="1112.0" y="303.0" />
+      <point x="0.0" y="139.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.SumAggregator" target="com.Kaz42c.FuzzySampler.Fuzzy.Aggregator" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="1586.0" y="1344.0" />
+      <point x="1826.904761904762" y="1344.0" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.Fuzzy.DomainMembership" target="com.Kaz42c.FuzzySampler.Fuzzy.ISetGetter" relationship="REALIZATION">
+      <point x="0.0" y="-73.5" />
+      <point x="1284.154761904762" y="1104.0" />
+      <point x="1512.75" y="1104.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.OutputScene.OutputSceneController" target="com.Kaz42c.FuzzySampler.ResizableFISSceneController" relationship="GENERALIZATION">
+      <point x="0.0" y="-106.5" />
+      <point x="2535.0" y="150.0" />
+      <point x="2406.0" y="150.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="com.Kaz42c.FuzzySampler.RulesScene.FuzzyRuleViewController" target="com.Kaz42c.FuzzySampler.RulesScene.SetGetterViewController" relationship="GENERALIZATION">
+      <point x="0.0" y="-128.0" />
+      <point x="948.0" y="303.0" />
+      <point x="1112.0" y="303.0" />
+      <point x="0.0" y="139.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7877267230955259" showDependencies="false" x="-593.5215288970757" y="1491.377772660987" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

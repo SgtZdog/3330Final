@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.Scene?>
+<Scene xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1"
+       fx:controller="com.Kaz42c.FuzzySampler.RulesScene.RulesSceneController">
+    <root>
+        <GridPane minHeight="300.0" minWidth="600.0">
+            <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS"/>
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints valignment="CENTER" vgrow="ALWAYS"/>
+                <RowConstraints minHeight="30.0" prefHeight="30.0" valignment="CENTER" vgrow="SOMETIMES"/>
+            </rowConstraints>
+            <children>
+                <HBox alignment="CENTER" style="-fx-border-color: black;">
+                    <children>
+                        <GridPane style="-fx-border-color: black;">
+                            <columnConstraints>
+                                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints valignment="CENTER" vgrow="SOMETIMES"/>
+                                <RowConstraints valignment="TOP" vgrow="ALWAYS"/>
+                            </rowConstraints>
+                            <children>
+                                <Button alignment="CENTER" mnemonicParsing="false" onAction="#addInput" text="Add Input"
+                                        textAlignment="CENTER"/>
+                                <VBox fx:id="Inputs" alignment="TOP_CENTER" GridPane.rowIndex="1"/>
+                            </children>
+                        </GridPane>
+                        <GridPane layoutX="11.0" layoutY="11.0" style="-fx-border-color: black;">
+                            <columnConstraints>
+                                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints valignment="CENTER" vgrow="SOMETIMES"/>
+                                <RowConstraints valignment="TOP" vgrow="ALWAYS"/>
+                            </rowConstraints>
+                            <children>
+                                <Button alignment="CENTER" mnemonicParsing="false" onAction="#addASet"
+                                        text="Add ASet Membership" textAlignment="CENTER"/>
+                                <VBox fx:id="ASets" alignment="TOP_CENTER" GridPane.rowIndex="1"/>
+                            </children>
+                        </GridPane>
+                        <GridPane layoutX="11.0" layoutY="11.0" style="-fx-border-color: black;">
+                            <columnConstraints>
+                                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints valignment="CENTER" vgrow="SOMETIMES"/>
+                                <RowConstraints valignment="TOP" vgrow="ALWAYS"/>
+                            </rowConstraints>
+                            <children>
+                                <Button alignment="CENTER" mnemonicParsing="false" onAction="#addBSet"
+                                        text="Add BSet Membership" textAlignment="CENTER"/>
+                                <VBox fx:id="BSets" alignment="TOP_CENTER" GridPane.rowIndex="1"/>
+                            </children>
+                        </GridPane>
+                        <GridPane layoutX="11.0" layoutY="11.0" style="-fx-border-color: black;">
+                            <columnConstraints>
+                                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints valignment="CENTER" vgrow="SOMETIMES"/>
+                                <RowConstraints valignment="TOP" vgrow="ALWAYS"/>
+                            </rowConstraints>
+                            <children>
+                                <Button alignment="CENTER" mnemonicParsing="false" onAction="#addInputOperator"
+                                        text="Add Input Operator" textAlignment="CENTER"/>
+                                <VBox fx:id="InputOperators" alignment="TOP_CENTER" GridPane.rowIndex="1"/>
+                            </children>
+                        </GridPane>
+                        <GridPane layoutX="11.0" layoutY="11.0" style="-fx-border-color: black;">
+                            <columnConstraints>
+                                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints valignment="CENTER" vgrow="SOMETIMES"/>
+                                <RowConstraints valignment="TOP" vgrow="ALWAYS"/>
+                            </rowConstraints>
+                            <children>
+                                <Button alignment="CENTER" mnemonicParsing="false" onAction="#addRule" text="Add Rule"
+                                        textAlignment="CENTER"/>
+                                <VBox fx:id="Rules" alignment="TOP_CENTER" GridPane.rowIndex="1"/>
+                            </children>
+                        </GridPane>
+                        <GridPane layoutX="11.0" layoutY="11.0" style="-fx-border-color: black;">
+                            <columnConstraints>
+                                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints valignment="CENTER" vgrow="SOMETIMES"/>
+                                <RowConstraints valignment="TOP" vgrow="ALWAYS"/>
+                            </rowConstraints>
+                            <children>
+                                <Button alignment="CENTER" mnemonicParsing="false" onAction="#addAggregator"
+                                        text="Add Aggregator" textAlignment="CENTER"/>
+                                <VBox fx:id="Aggregators" alignment="TOP_CENTER" GridPane.rowIndex="1"/>
+                            </children>
+                        </GridPane>
+                        <GridPane layoutX="11.0" layoutY="11.0" style="-fx-border-color: black;">
+                            <columnConstraints>
+                                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0"/>
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints valignment="CENTER" vgrow="SOMETIMES"/>
+                                <RowConstraints valignment="TOP" vgrow="ALWAYS"/>
+                            </rowConstraints>
+                            <children>
+                                <Button alignment="CENTER" mnemonicParsing="false" onAction="#addDefuzzifier"
+                                        text="Add Defuzzifier" textAlignment="CENTER"/>
+                                <VBox fx:id="Defuzzifiers" alignment="TOP_CENTER" GridPane.rowIndex="1"/>
+                            </children>
+                        </GridPane>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER" GridPane.rowIndex="1">
+                    <children>
+                        <Button alignment="CENTER" mnemonicParsing="false" onAction="#goToOutput" text="Compute Values"
+                                textAlignment="CENTER"/>
+                        <Button alignment="CENTER" layoutX="330.0" layoutY="73.0" mnemonicParsing="false"
+                                onAction="#helpButton" text="Help" textAlignment="CENTER"/>
+                        <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" text="Save System"
+                                textAlignment="CENTER"/>
+                        <Button mnemonicParsing="false" text="Load System"/>
+                    </children>
+                </HBox>
+            </children>
+        </GridPane>
+    </root>
+</Scene>
